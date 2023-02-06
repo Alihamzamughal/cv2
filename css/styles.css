@@ -1,0 +1,164 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+   font-family: 'Sacramento' , cursive ;
+   font-size: 4.375rem;
+   margin: 20px auto 0 auto;
+   color:#049790;
+   
+   
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.188rem;
+    color:#099696;
+    font-weight: normal;
+    padding: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+p{
+    line-height: 2;   /* it will double line hight of skill text 
+                       mean line gave b/w 1 and 2 & 2 and 3 and so on  */
+}
+hr{
+   border: dotted #206868 6px ; /*border-radius,style, border-color ,border-width(size increses or deccrese)*/
+   border-bottom: none; /* single dotted line  */
+   width: 4%;    /* % use to dyanamic use, width changes when its display-page change its width */
+   margin: 100px auto; /* up-daown right-left */
+
+}  
+   
+.top-container{
+    position: relative;
+    background-color: #87CEEB;
+    padding-top: 100px;
+    width: 100%;
+    height: 490px;
+}
+.software{
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.cloud1{
+    position:absolute;
+    top:50px;
+    right:  200px;
+}
+.cloud2{
+    position:absolute;
+    top: 300px;
+    left: 200px;
+}
+.mo{
+    position: absolute;
+    bottom: 0px;
+    left: 450px;
+    width: 450px;
+}
+line{
+    border-style: none;
+    border-top: dotted;
+    border-color: #206868;
+    border-width: 5px;
+    width: 5%;
+
+}
+
+.middle-container{
+     margin: 100px 0;     /* 100px is up and down of middle dive 0 is left and wright */
+}
+
+.prof-para{
+    width: 30%;   /* shorter line width convert 1 line into shorter space result into more line */
+    margin: auto;   /* change its left postion to center of the page */
+    
+}
+.ali-img{
+    height: 200px;
+    width: 200px;
+}
+.developer{
+    width: 25%;
+    float: left; /* wrapping  the text arround the image */
+
+    padding-right: 30px ; /* you can also use margin to make space b/w 
+                          img and text */
+}
+.tv{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+.cont-me-para{
+    width: 40%;
+    margin: 40px auto 60px ; /* top right-left bottom */
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+    
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottom-container{ 
+    background-color: #11cdd4;
+    height: 40px;
+    margin-top: 90px;
+    padding-top: 90px;
+    padding-bottom: 50px;    
+}
+.footer-link{         /* could use acker tag also to change css */
+    color: #0c7c80;
+    font-family:'Montserrat', sans-serif;
+    padding: 30px;
+    margin:10px 15px;
+    text-decoration: none; /* remove default underline property of anchor tag */
+
+}
+.footer-link:hover{   /*  hover is pseudo property when mouse move on it it (hover) change color */
+    color: #EAF6F6;
+
+}
+.last-para{
+    color: #EAF6F6;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 0.7rem;  /* use rem in font properties recommend  by Angela yu */
+}
